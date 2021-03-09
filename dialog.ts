@@ -165,7 +165,7 @@ namespace story {
     //% group="Text"
     //% blockGap=8
     export function printCharacterText(text: string, label?: string) {
-        if (_currentCutscene().cancelled) {
+        if (_currentCutscene().state === State.Cancelled) {
             return;
         }
         const task = printDialog(text, 80, 90, 50, 150);
