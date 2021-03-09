@@ -1,0 +1,51 @@
+{
+    "name": "arcade-story",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "api.ts",
+        "message.ts",
+        "script.ts",
+        "sequence.ts",
+        "move.ts",
+        "scene.ts",
+        "text.ts",
+        "dialog.ts",
+        "shapeSprites.ts",
+        "menu.ts",
+        "menuState.ts",
+        "cancel-current-text.md",
+        "cancel-cutscene.md",
+        "last-answer-equals.md",
+        "print-character-text.md",
+        "print-dialog.md",
+        "print-text.md",
+        "set-page-pause-length.md",
+        "show-player-choices.md",
+        "sprite-cancel-movement.md",
+        "sprite-move-to-position.md",
+        "sprite-move-to-tilemap-location.md",
+        "sprite-say.md",
+        "start-cutscene.md",
+        "set-sound-enabled.md",
+        "cancel-all-cutscenes.md",
+        "get-last-answer.md",
+        "is-menu-open.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.3.44",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
