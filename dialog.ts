@@ -121,7 +121,7 @@ namespace story {
      */
     //% blockId=arcade_story_start_cutscene
     //% block="start cutscene"
-    //% help="github:arcade-story//start-cutscene.md"
+    //% help=github:arcade-story/start-cutscene.md
     //% weight=100
     //% handlerStatement=1
     //% group="Cutscene"
@@ -160,7 +160,7 @@ namespace story {
      */
     //% blockId=arcade_story_print_character_text
     //% block="print character text $text|| with label $label"
-    //% help="github:arcade-story//print-character-text.md"
+    //% help=github:arcade-story/print-character-text.md
     //% weight=30
     //% group="Text"
     //% blockGap=8
@@ -204,7 +204,7 @@ namespace story {
      */
     //% blockId=arcade_story_show_player_choices
     //% block="show player choices $choice1 $choice2 ||$choice3 $choice4 $choice5"
-    //% help="github:arcade-story//show-player-choices.md"
+    //% help=github:arcade-story/show-player-choices.md
     //% inlineInputMode=inline
     //% weight=80
     //% blockGap=8
@@ -226,7 +226,7 @@ namespace story {
      */
     //% blockId=arcade_story_last_answer
     //% block="last answer equals $choice"
-    //% help="github:arcade-story//last-answer-equals.md"
+    //% help=github:arcade-story/last-answer-equals.md
     //% weight=70
     //% group="Menu"
     export function checkLastAnswer(choice: string): boolean {
@@ -250,7 +250,7 @@ namespace story {
      */
     //% blockId=arcade_story_get_last_answer
     //% block="get last answer"
-    //% help="github:arcade-story/get-last-answer.md"
+    //% help=github:arcade-story/get-last-answer.md
     //% weight=60
     //% blockGap=8
     //% group="Menu"
@@ -265,7 +265,7 @@ namespace story {
      */
     //% blockId=arcade_story_is_menu_open
     //% block="is menu open"
-    //% help="github:arcade-story/is-menu-open.md"
+    //% help=github:arcade-story/is-menu-open.md
     //% weight=50
     //% group="Menu"
     export function isMenuOpen(): boolean {
@@ -277,7 +277,7 @@ namespace story {
      */
     //% blockId=arcade_story_cancel_cutscene
     //% block="cancel cutscene"
-    //% help="github:arcade-story/cancel-cutscene.md"
+    //% help=github:arcade-story/cancel-cutscene.md
     //% weight=50
     //% blockGap=8
     //% group="Cutscene"
@@ -291,7 +291,7 @@ namespace story {
      */
     //% blockId=arcade_story_cancel_all_cutscenes
     //% block="cancel all cutscenes"
-    //% help="github:arcade-story/cancel-all-cutscenes.md"
+    //% help=github:arcade-story/cancel-all-cutscenes.md
     //% weight=49
     //% blockGap=8
     //% group="Cutscene"

@@ -14,7 +14,7 @@ namespace story {
      */
     //% blockId=story_sprite_move_to_location
     //% block="$sprite move to x $x y $y with speed $speed"
-    //% help="github:arcade-story/sprite-move-to-position.md"
+    //% help=github:arcade-story/sprite-move-to-position.md
     //% inlineInputMode=inline
     //% sprite.shadow=variables_get
     //% sprite.defl=sprite
@@ -69,7 +69,7 @@ namespace story {
      */
     //% blockId=story_sprite_cancel_movement
     //% block="$sprite cancel movement"
-    //% help="github:arcade-story/sprite-cancel-movement.md"
+    //% help=github:arcade-story/sprite-cancel-movement.md
     //% inlineInputMode=inline
     //% sprite.shadow=variables_get
     //% sprite.defl=sprite
@@ -103,7 +103,7 @@ namespace story {
     //  */
     // //% blockId=story_sprite_move_to_tile
     // //% block="$sprite move to $location with speed $speed"
-    // //% help="github:arcade-story/sprite-move-to-tilemap-location.md"
+    // //% help=github:arcade-story/sprite-move-to-tilemap-location.md
     // //% sprite.shadow=variables_get
     // //% sprite.defl=sprite
     // //% location.shadow=mapgettile
