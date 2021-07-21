@@ -27,7 +27,7 @@ namespace story {
 
         cancelByKey(key: string) {
             for (const task of this.activeTasks) {
-                if (task.key === key && task.cancel) {
+                if (task.key === key && task.cancel && !task.isDone()) {
                     task.cancel();
                     return;
                 }
@@ -37,7 +37,7 @@ namespace story {
         clear() {
             this.queue = [];
             for (const task of this.activeTasks) {
-                if (task.cancel)
+                if (task.cancel && !task.isDone())
                     task.cancel();
             }
             this.reset();
@@ -115,7 +115,7 @@ namespace story {
             const state = stateStack[stateStack.length - 1];
             state.clearFinishedTasks();
             if (state.lock) return;
-            
+
             if (state.queue.length) {
                 if (state.shouldAdvance() || !state.running) {
                     if (state.running) {
