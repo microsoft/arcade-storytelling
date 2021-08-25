@@ -288,7 +288,7 @@ namespace story {
                 else {
                     this.tick++;
                     this.timer += this.tickPeriod;
-                    playWithVolume(tickSound, 20)
+                    playWithVolume(tickSound, 60)
 
                     if (this.tick >= this.currentPart.text.length) {
                         this.advancePart();
@@ -368,10 +368,7 @@ namespace story {
 
     function playWithVolume(sound: music.Melody, volume: number) {
         if (!_currentCutscene().soundEnabled) return;
-        const current = music.volume();
-        music.setVolume(Math.min(current, volume));
-        sound.play();
-        // music.setVolume(current)
+        sound.play(volume);
     }
 
     export function line(text: string, speed: TextSpeed): MessageLine {
